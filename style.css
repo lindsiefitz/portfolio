@@ -1,7 +1,7 @@
 /* Style the navigation bar */
 .navbar {
     width: 100%;
-    background-color: #555;
+    background-color: #3F3F3F;
     overflow: auto;
   }
   
@@ -17,13 +17,9 @@
   
   /* Navbar links on mouse-over */
   .navbar a:hover {
-    background-color: #000;
-  }
-  
-  /* Current/active navbar link */
-  .active {
     background-color: #6291D0;
   }
+  
   
   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
   @media screen and (max-width: 500px) {
@@ -33,13 +29,12 @@
     }
   }
 
-
-
-
 .main-section {
     background-image: url(Assets/IMG_8644.JPG);
+    margin: 20px;
     padding: 100px;
-    height: 300px;
+    width: auto;
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,6 +43,5 @@
 
 body {
     margin: 0;
-    font-family: 'Dancing Script', cursive;
     font-family: 'Montserrat', sans-serif;
     }
