@@ -1,7 +1,7 @@
 /* Style the navigation bar */
 .navbar {
     width: 100%;
-    background-color: #3F3F3F;
+    background-color: #3f3f3f;
     overflow: auto;
   }
   
@@ -28,17 +28,29 @@
     }
   }
 
-.main-section {
+.main-section-1 {
     background-image: url(Assets/IMG_8644.JPG);
     margin: 20px;
     padding: 100px;
     width: auto;
-    height: 100%;
+    height: 150px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     }
+ 
+    .main-section-2 {
+      background-image: url(Assets/IMG_8644.JPG);
+      margin: 20px;
+      padding: 100px;
+      width: auto;
+      height: 150px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      
+      }
 
 body {
     margin: 0;
