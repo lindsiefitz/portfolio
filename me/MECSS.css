@@ -18,6 +18,7 @@ body {
     padding: 12px;
   }
   
+  /* PIC OF ME */
   .main-container {
     grid-column: 1/2;
     grid-row: 2;
@@ -63,7 +64,8 @@ body {
   a {
     text-decoration: none;
   }
-    
+ 
+  /* WHO */
   .sidebar-title {
     font-size: 30px;
     font-weight: bold;
@@ -118,6 +120,7 @@ body {
     margin-bottom: 10px;
   }
 
+  /* WHY */
   .footer-flex {
     display: flex;
     direction: row;
@@ -154,6 +157,7 @@ body {
     width: 43px;
     height: 43px;
     border-radius: 3px;
+    margin-right: 10px;
   }
   
   a .insta-box:hover {
@@ -230,9 +234,15 @@ h4 {
   align-items: center;
   font-size: 30px;
   font-weight: bold;
+  color: #333;
   margin-top: 20px;
 }
 
 .last:hover {
   background-color: #6291D0;
+}
+
+.nav-link:hover {
+  color: #6291D0;
+  letter-spacing: 2px;
 }
