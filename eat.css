@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+/* Style the navigation bar */
+.navbar {
+    display: flex;
+      grid-column: 1/1;
+      grid-row: 2;
+      width: 100%;
+      height: 50px;
+      background-color: #3f3f3f;
+      overflow: auto;
+      margin-bottom: 15px;
+      justify-content: center;
+      text-align: center;
+      margin-top: 12px;
+    }
+
+/* Navbar links */
+.navbar a {
+    float:left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 8%;
+  }
+  
+  .navbar a:hover {
+    background-color: #45bee0;
+  }
+  
+    /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: center;
+    }
+  }
+
+  img {
+    max-width: 70%;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
