@@ -35,6 +35,13 @@ body {
     width: 80%;
   }
   
+  .smaller-image {
+    max-width: 80%;
+    height: auto;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+    border-radius: 10px;
+  }
+
   .sidebar-container {
     grid-column: 2/4;
     grid-row: 2;
